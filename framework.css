@@ -1,4 +1,4 @@
-/*===========  Reset 
+/*===========  Reset
  */
 * {
   box-sizing: border-box;
@@ -17,3 +17,48 @@ li {
   list-style: none;
 }
 
+/*=========== The MicroGrid
+*/
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+}
+
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8,
+.g9,
+.g10,
+.g11,
+.g12 {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+/* 12 = 100% */
+.g12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/* 11 = 91.66% */
+.g11 {
+  flex-basis: 91.66%;
+  max-width: 91.66%;
+}
+
+/* 10 = 83.33 */
+.g10 {
+  flex-basis: 83.33%;
+  max-width: 83.33%;
+}
+
+/*9 
