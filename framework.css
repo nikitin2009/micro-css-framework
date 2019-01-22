@@ -35,7 +35,9 @@ a {
 .row {
   margin: 0 auto;
   width: 100%;
-  max-width: 960px;
+  max-width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
 }
 
