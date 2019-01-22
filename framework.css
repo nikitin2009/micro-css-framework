@@ -28,6 +28,12 @@ li {
   display: flex;
 }
 
+.full-width {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
 .g1,
 .g2,
 .g3,
