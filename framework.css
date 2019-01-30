@@ -1,0 +1,136 @@
+/*===========  Reset
+ */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: .1em;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*=========== For display: flex; elements
+*/
+.flex {
+  display: flex;
+}
+
+/*=========== The MicroGrid
+*/
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1120px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.full-width {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.g1,
+.g2,
+.g3,
+.g4,
+.g5,
+.g6,
+.g7,
+.g8,
+.g9,
+.g10,
+.g11,
+.g12 {
+  margin: 0 2px;
+}
+
+/* 12 = 100% */
+.g12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/* 11 = 91.66% */
+.g11 {
+  flex-basis: 91.66%;
+  max-width: 91.66%;
+}
+
+/* 10 = 83.33% */
+.g10 {
+  flex-basis: 83.33%;
+  max-width: 83.33%;
+}
+
+/* 9 = 75% */
+.g9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+/* 8 = 66.66% */
+.g8 {
+  flex-basis: 66.66%;
+  max-width: 66.66%;
+}
+
+/* 7 = 58.33% */
+.g7 {
+  flex-basis: 58.33%;
+  max-width: 58.33%;
+}
+
+/* 6 = 50% */
+.g6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+/* 5 = 41.66% */
+.g5 {
+  flex-basis: 41.66%;
+  max-width: 41.66%;
+}
+
+/* 4 = 33.33% */
+.g4 {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+}
+
+/* 3 = 25% */
+.g3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+/* 2 = 16.66% */
+.g2 {
+  flex-basis: 16.66%;
+  max-width: 16.66%;
+}
+
+/* 1 = 8.33% */
+.g1 {
+  flex-basis: 8.33%;
+  max-width: 8.33%;
+}
